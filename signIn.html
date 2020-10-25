@@ -27,39 +27,41 @@
 
         <div class="container" id="container">
                 <div class="form-container sign-up-container">
-                    <form action="#">
+                    <form id = form-register>
                         <h1>Create Account</h1>
                         <span>use your email for registration</span>
-                        <input type="text" placeholder="Name"/>
-                        <input type="email" placeholder="Email"/>
-                        <input type="password" placeholder="Password"/>
+                        <input id="userName" type="text" placeholder="Name" required/>
+                        <input id="email" type="email" placeholder="Email" required/>
+                        <input id="pass" type="password" placeholder="Password" required/>
                         
                         <div id="doctor"> 
-                            <input type="text" placeholder="phone number">
-                            <select name="major" id="select-major">
-                                <option value="">Internal</option>
-                                <option value="">general practice</option>
-                                <option value="">ear,nose and throat</option>
-                                <option value="">respiratory</option>
+                            <input id="phone" type="text" placeholder="phone number" required>
+                            <label for="select-major">Select your major.</label>
+                            <select name="major" id="major" required>
+                                <option value="default"></option>
+                                <option value="Internal">Internal</option>
+                                <option value="general practice">general practice</option>
+                                <option value="ear,nose and throat">ear,nose and throat</option>
+                                <option value="respiratory">respiratory</option>
                             </select>
+                            <input id="about" type="text" placeholder="About yourself (optional)..">
                         </div>
-                        <input id="radioDoctor" type="checkbox"placeholder="doctor" >
+                        <input id="radioDoctor"  type="checkbox"placeholder="doctor" >
                         <label for="doctor">DOCTOR</label>
                     
 
                     
                         
-                        <button class="su" >Sign Up</button>
+                        <button id="signup-submit" class="su" >Sign Up</button>
                     </form>
                 </div>
                 <div class="form-container sign-in-container">
-                    <form action="#">
+                    <form id="form-signin" action="#">
                         <h1>Sign In</h1>
                         <span>use your account</span>
-                        <input type="email" placeholder="Email"/>
-                        <input type="password" placeholder="Password"/>
-                        <a href="http://Youtube.com/c/ZaidIrfanKhan" target="_blank">I Forgot my Password</a>
-                        <button class="si">Sign In</button>
+                        <input id="signinEmail" type="email" placeholder="Email" required/>
+                        <input id="signinPass" type="password" placeholder="Password" required/>
+                        <button id="submit-signin" class="si">Sign In</button>
                     </form>
                 </div>
                 <div class="overlay-container">
@@ -77,7 +79,7 @@
                     </div>
                 </div>
             </div>
-
+                
 
     </main>
     <footer>
