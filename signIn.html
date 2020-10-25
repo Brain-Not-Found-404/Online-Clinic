@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clinic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signIn.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <h1>OUR CLINIC</h1>
+       
+        <img src="img/pngegg.png" alt="logo" id=logo>
+    </header>
+    <main>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+
+        <div class="container" id="container">
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                        <h1>Create Account</h1>
+                        <span>use your email for registration</span>
+                        <input type="text" placeholder="Name"/>
+                        <input type="email" placeholder="Email"/>
+                        <input type="password" placeholder="Password"/>
+                        
+                        <div id="doctor"> 
+                            <input type="text" placeholder="phone number">
+                            <select name="major" id="select-major">
+                                <option value="">Internal</option>
+                                <option value="">general practice</option>
+                                <option value="">ear,nose and throat</option>
+                                <option value="">respiratory</option>
+                            </select>
+                        </div>
+                        <input id="radioDoctor" type="checkbox"placeholder="doctor" >
+                        <label for="doctor">DOCTOR</label>
+                    
+
+                    
+                        
+                        <button class="su" >Sign Up</button>
+                    </form>
+                </div>
+                <div class="form-container sign-in-container">
+                    <form action="#">
+                        <h1>Sign In</h1>
+                        <span>use your account</span>
+                        <input type="email" placeholder="Email"/>
+                        <input type="password" placeholder="Password"/>
+                        <a href="http://Youtube.com/c/ZaidIrfanKhan" target="_blank">I Forgot my Password</a>
+                        <button class="si">Sign In</button>
+                    </form>
+                </div>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-left">
+                            <h1>Welcome Back!</h1>
+                            <p>To Keep connected with us please login with your personal info</p>
+                            <button class="ghost" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay-panel overlay-right">
+                            <h1>Hello, Wanderer!</h1>
+                            <p>Enter your personal details and start journey with us</p>
+                            <button class="ghost" id="signUp">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/signIn.js"></script>
+</body>
+</html>
