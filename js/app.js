@@ -8,37 +8,16 @@ var contentArray=["Eating certain foods, especially those rich in vitamin K, can
 "Dairy products such as milk, yogurt, and cheese can delay or prevent the absorption of antibiotics such as tetracyclines and ciprofloxacin (Cipro). This occurs because the calcium in such foods binds to the antibiotics in the stomach and upper small intestine to form an insoluble compound.To avoid problems, Zive recommends taking an antibiotic one hour before or two hours after a meal.",
 "Antithyroid drugs work by preventing iodine absorption in the stomach. A high-iodine diet requires higher doses of antithyroid drugs. The higher the dose of antithyroid drugs, the greater the incidence of side effects that include rashes, hives, and liver disease.The richest dietary sources of iodine are seafood and seaweed, such as kelp and nori. Iodine is also found in iodized salt and to a lesser extent in eggs, meat, and dairy products."];
 
-// function submitMydrug(){
-//     for (var i=0;i<contentArray.length;i++){
 
-//         var x = document.getElementById('dropdown-menu').contentArray[i].text;
-//         document.getElementById('textArea').innerHTML= x ;
-//     }
-
-//     console.log(x);
-// }
-var idArray = ["O1","O2","O3","O4","O5","O6","O7"];
+var idArray = ["opt1","opt2","opt3","opt4","opt5","opt6","opt7"];
 var result =document.getElementById('textArea');
 
-// document.getElementById('dropdown-menu').addEventListener('click',function(event){
-//     var id =event.target.id;
-//     console.log('clicked1');
-//     if (id !=="dropdown-menu") {
-//         console.log('clicked2');
-//         for (var i=0;i<idArray.length;i++) {
-//             if (id === idArray[i]){
-//              result.textContent= contentArray[i];
-//             console.log('clicked');
-//             }
-//         }
 
-//     }
-// });
 document.getElementById('dropdown-menu').addEventListener('click',function(event){
     var id =event.target.id;
-    console.log('clicked1');
+   
     if (id !=="dropdown-menu") {
-        console.log('clicked2');
+      
         for (var i=0;i<idArray.length;i++) {
             if (id === idArray[i]){
              result.textContent= contentArray[i];
@@ -48,12 +27,3 @@ document.getElementById('dropdown-menu').addEventListener('click',function(event
 
     }
 });
-
-
-// var value1=document.getElementById('O1').text;
-// if (text= "Warfarin") {
-//     document.getElementById('textArea').innerHTML="bla bla bla ";
-// }if (text= "Insulin") {
-//     document.getElementById('textArea').innerHTML=" tr trtrtr ";
-// }
-// console.log(value1);
