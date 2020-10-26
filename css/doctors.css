@@ -1,0 +1,67 @@
+.container{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.doctors-cont{
+    width: 100%;
+    height: 50vh;
+    overflow-x: auto;
+    box-shadow: 0 1px 2px 6px  rgba(128, 128, 128, 0.37);
+    padding: 15px;
+    
+}
+.doctors-cont div{
+    width: 70%;
+    height: 100px;
+    text-align: left;
+    margin: 10px auto;
+    background-color: rgba(85, 82, 82, 0.788);    
+    color: black;
+    font-size: 1.2em;
+    overflow-y: auto; 
+   padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 3px  rgba(48, 46, 46, 0.37);
+
+}
+.doctors-cont div p {
+    width: 80%;
+    display: inline-block;
+}
+.info-container{
+    position: relative;
+}
+.doctors-cont div .my-star{
+    margin-left: 14%;
+    
+    color: rgba(241, 241, 241, 0.883);
+    position: absolute;
+    top:25px;
+    right: 20px;
+    cursor: pointer;
+    
+}
+button{
+    background-color: rgba(34, 32, 32, 0.904);
+    color: whitesmoke;
+    font-size: 1.1em;
+    margin: 10px;
+    padding:5px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px rgb(68, 65, 65);
+    outline: none;
+}
+button:hover{
+    color: rgb(255, 0, 0);
+}
+button:active{
+    transform: translateY(2px);
+}
+
+.buttons-filter{
+    text-align: left;
+}
