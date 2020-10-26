@@ -11,7 +11,7 @@ body {
 
 header h1{
     font-family:'Quicksand', sans-serif;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 400;
     color: #B50717;
     text-align: center;
@@ -21,6 +21,7 @@ header h1{
 
     
 }
+
 
 .drug{
     font-size: 50px;
@@ -37,7 +38,7 @@ header {
 }
 header img{
     float: left;
-    margin-top:-52%;
+ margin-top: -51%;
     width: 100%;
     /* height: 80%; */
     
@@ -64,7 +65,8 @@ header ul {
    }
    /* Change the link color to #111 (black) on hover */
    li a:hover {
-    color: #B50717;
+       background-color:#B50717 ;
+    
    }
    /* header end  */
 
