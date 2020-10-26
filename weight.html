@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clinic</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/weight.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1 class="drug">OPTIMAL WEIGHT</h1>
+
+</section>
+<br>
+<img src="img/pngegg.png" alt="logo" id=logo>
+    </header>
+    <main>
+<section>
+
+    
+    <form name="bmiForm" id="formweight">
+        <fieldset>
+            <h2>Calculate Your BMI</h2>
+            <label for="weight" class="weightBMI" >Your Weight(kg):</label>
+            <input id="weight" type="text" name="weight" placeholder="Your Weight(kg)"><br>
+            <label for="height" class="heightBMI" >Your Height(cm):</label>
+            <input id="height" type="text" name="height" placeholder="Your Height (cm)"><br>
+            <input id="button" type="button" value="Calculate BMI" onclick="calculateBMI(event);" >
+            <input id="reset" type="reset"  value="reset" onclick="calculateBMI(event);">
+        </fieldset>
+        <div class= 'result'>
+            <p id="finalBmi" name="bmi"></p>
+            <p id="text"></p>
+        </div>
+
+    </form>
+    
+    
+</section>
+    </main>
+<script src="js/weight.js"></script>
+    <footer>
+
+    </footer>
+    </body>
+    </html>
