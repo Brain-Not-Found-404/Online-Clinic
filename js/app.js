@@ -27,3 +27,5 @@ document.getElementById('dropdown-menu').addEventListener('click',function(event
 
     }
 });
+
+//Calculate optimal weight 
