@@ -11,7 +11,7 @@ body {
 
 header h1{
     font-family:'Quicksand', sans-serif;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 400;
     color: #B50717;
     text-align: center;
@@ -21,6 +21,7 @@ header h1{
 
     
 }
+
 
 .drug{
     font-size: 50px;
