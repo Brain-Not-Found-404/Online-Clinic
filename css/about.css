@@ -34,16 +34,16 @@ body {
   
   
   #error-text p  {
-      color: #eee;
+      color:#a52732 ;
       margin: 50px 0 0 0;
-      font-size: large;
+      font-size: 80%;
       font-weight: bolder;
   }
 
   
   #error-text span  {
       position: relative;
-      background:#B50717;
+      background:#88141f;
       color: #fff;
       font-size: 450%;
       padding: 0 20px;
@@ -60,16 +60,75 @@ body {
       color: #fff;
     
   }
+  
 
   img{
       border-radius: 100%;
-      overflow: hidden;
-      display: inline-block;
+      width: 150px;
+      height: 150px;
+      box-shadow: 0 1px 4px 2px rgba(128, 128, 128, 0.753);
+      margin-top: -10px;
+
+      
+
+      
+      /* overflow: hidden; */
+      
+  }
+  #images h1{
+    color: #eee;
+    font-size: 0.9em;
+
   }
 
-  #images{
-      display: inline-block;
-      
+  #images div {
+    width: 17%;
+    height: 250px;
+     margin: 15px;
+  }
+  #images {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+/* 
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+  } */
+  p {
+    position: relative;
+    font-family: Impact, sans-serif;
+    font-size: 45px;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #db4444, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100%{
+      background-position: 250%;
+    }
+    100% {
+      background-position: 500%;
+    }
   }
 
   /* .column {
