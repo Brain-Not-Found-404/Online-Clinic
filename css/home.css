@@ -3,7 +3,7 @@ img{
     height: 50px;
 }
 
-.header1{
+/* .header1{
     padding: 30px;
   margin-bottom: 0;
   position: relative;
@@ -21,21 +21,21 @@ img{
   /* background: #c27baa; */
   opacity: 0.9;
   filter: alpha(opacity=90);
-}
+} */
 
 #homePage{
-    background: url('https://image.freepik.com/free-photo/doctor-s-stethoscope-with-blue-background_23-2147652363.jpg') ;
+    /* background: url('https://image.freepik.com/free-photo/doctor-s-stethoscope-with-blue-background_23-2147652363.jpg') ; */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.header1 h2
+/* .header1 h2
 .header1 h3{
     color: black;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 1000px;
-}
+} */
 
 .placeholders {
     margin-bottom: 30px;
@@ -55,5 +55,9 @@ img{
 .row placeholders{
 
     display: inline-block;
+}
+section{
+    width: 100%;
+    height: 25%;
 }
 
