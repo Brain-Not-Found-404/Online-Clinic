@@ -11,7 +11,7 @@ body {
 
 header h1{
     font-family:'Quicksand', sans-serif;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: bold;
     /* color: #B50717; */
     color: rgba(36, 35, 35, 0.822);
@@ -33,10 +33,10 @@ header {
     top: 0%;
     background-color: #bfbfbf;
     width: 100%;
-    height:220px;
+    height:200px;
     margin-bottom: 200px;
     /* text-shadow:  2px 2px #333; */
-   z-index: 5;
+   z-index: 8;
     background-image: url('../img/pngegg.png');
     background-size: cover;
     background-repeat: no-repeat;
