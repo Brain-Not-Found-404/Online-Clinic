@@ -29,6 +29,8 @@ table {
             
 
         }
+
+
         
 
 /* slider css */
@@ -99,4 +101,43 @@ table {
     margin-left: -80%;
   }
   
-  
+  /*  paragraphe css  */
+
+
+.textStyling {
+  display: inline-block;
+
+  /* height: 120px; */
+  width: 45%;
+  margin-top: 25%;
+  text-align: center;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+
+}
+
+.textStyling .steps{
+  border: none;
+  outline: none;
+  height: 35px;
+  color: #fff;
+  font-size: 16px;
+  /* margin-top: -2%;
+  margin-left: 15px ; */
+  background: #B50717;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 8px 15px;
+}
+
+
+.textStyling .steps:hover{
+  background: #333333;
+  color: #bfbfbf;
+}
+
+
+.typing {
+  margin-top: 20px;
+}
