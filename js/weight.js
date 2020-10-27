@@ -16,7 +16,7 @@ function calculateBMI(event)
     }
     
     if(finalBmi < 18.5){
-    meaning.innerHTML= "That you are too thin."
+    meaning.innerHTML= "you are too thin."
     }
     if(finalBmi > 18.5 && finalBmi < 25){
     meaning.innerHTML = "That you are healthy."
