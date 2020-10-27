@@ -32,7 +32,6 @@
 
     
     <form name="bmiForm" id="formweight">
-        <fieldset>
             <h2>Calculate Your BMI</h2>
             <label for="weight" class="weightBMI" >Your Weight(kg):</label>
             <input id="weight" type="text" name="weight" placeholder="Your Weight(kg)"><br>
@@ -40,7 +39,6 @@
             <input id="height" type="text" name="height" placeholder="Your Height (cm)"><br>
             <input id="button" type="button" value="Calculate BMI" onclick="calculateBMI(event);" >
             <input id="reset" type="reset"  value="reset" onclick="calculateBMI(event);">
-        </fieldset>
         <div class= 'result'>
             <p id="finalBmi" name="bmi"></p>
             <p id="text"></p>
