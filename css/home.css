@@ -1,4 +1,4 @@
-img{
+/* img{
     width: 50px;
     height: 50px;
 }
@@ -19,15 +19,15 @@ img{
   width: 100%;
   height: 100%;
   /* background: #c27baa; */
-  opacity: 0.9;
+  /* opacity: 0.9;
   filter: alpha(opacity=90);
-} */
+} */ 
 
-#homePage{
+/* #homePage{
     /* background: url('https://image.freepik.com/free-photo/doctor-s-stethoscope-with-blue-background_23-2147652363.jpg') ; */
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* .header1 h2
 .header1 h3{
@@ -37,7 +37,7 @@ img{
   margin-bottom: 1000px;
 } */
 
-.placeholders {
+/* .placeholders {
     margin-bottom: 30px;
     text-align: center;
 }
@@ -59,5 +59,55 @@ img{
 section{
     width: 100%;
     height: 25%;
-}
+} */ 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
+body {
+    background:#2d2d2d;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:0;
+    margin:0;
+    height:100vh;
+    width:100vw;
+    font-family:'Quicksand', sans-serif;
+
+    color:#FFF;
+}
+section {
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: #2d2d2d;
+    border-bottom: 1px solid #bfbfbf;
+    text-align: center;
+  }
+  section:nth-child(1) {
+    margin-top: 100px;
+  }
+  img{
+    width: 16%;
+    float: left;
+    margin: 3%;
+    margin-top: -2.5%;
+    border-radius: 100%;
+
+
+}
+h4{
+    display:inline-block;
+    width: 20%;
+    float: left;
+    margin: 1%;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-weight: 500;    
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+margin-top: -2.5%;
+
+}
