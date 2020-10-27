@@ -50,27 +50,25 @@ function renderData (){
 };
 renderData();
 
-// function renderFavData (){
+function renderFavData (){
      
-//     containerFav.innerHTML='';
-//     if(favDoctors.length === 0 ){
+    containerFav.innerHTML='';
+    if(favDoctors.length === 0 ){
         
-//         // render any thing to tell the user he doesn't have any favorite data 
-//     }
-//     else{
+        containerFav.innerHTML=`<h1></h1><h1> You don't have any favorite cards! </h1>`;
+    }
+    else{
 
-//         for (var i=0; i<favDoctors.length; i++){
-//             var div = document.createElement('div');
-//             var data =document.createElement('p');
-//             data.textContent= favDoctors[i];
-//             div.appendChild(data);
-//             containerFav.appendChild(div);
-//             div.setAttribute('class','info-container');
+        for (var i=0; i<favDoctors.length; i++){
+            var div = document.createElement('div');
+            div.innerHTML=favDoctors[i];
+            containerFav.appendChild(div);
+            div.setAttribute('class','container');
       
-//         }
-//     }
-//     };
-//     renderFavData();
+        }
+    }
+    };
+    renderFavData();
 
 
 
@@ -129,7 +127,8 @@ function addToFav(event){
        else{
            for (var i =0 ; i< doctorsArray.length; i++ ){
                if(doctorsArray[i].includes(id)){
-                   favDoctors.push(doctorsArray[i]);
+                   var data = doctorsArray[i].slice( doctorsArray[i].indexOf('</p>')+4);
+                   favDoctors.push(data);
                    localStorage.setItem('fav', JSON.stringify(favDoctors));
                    star.classList.add('favorite'); // add it to favorite array and add the class name
                }
@@ -154,13 +153,13 @@ setFav();
 
 // listenes for buttons show and hide
 allButton.addEventListener('click',function(){
-    container.style.display='block';
+    container.style.display='grid';
     containerFav.style.display='none';
 });
 
 favButton.addEventListener('click',function(){
     renderFavData();
-    containerFav.style.display='block';
+    containerFav.style.display='grid';
     container.style.display='none';
 })
 
