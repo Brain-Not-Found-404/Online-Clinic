@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 /* body  */
 body {
-    background-color: #E8E8E8;
+    background-color: #2d2d2d;
    
 }
 
@@ -30,7 +30,7 @@ header h1{
 }
 header {
     position: fixed;
-    top: 0%;
+    top: 0;
     background-color: #bfbfbf;
     width: 100%;
     height:200px;
@@ -41,7 +41,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -70px;
-    box-shadow: 0 2px 2px 7px rgba(51, 50, 50, 0.753);
+    box-shadow: 0 2px 8px 4px rgba(175, 175, 175, 0.753);
+    /* box-shadow: 0 2px 12px 2px #d32637; */
 }
 header img{
     
