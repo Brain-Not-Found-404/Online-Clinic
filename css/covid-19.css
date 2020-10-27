@@ -19,7 +19,7 @@ table {
 }	
 
 th {
-	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#B50717, rgba(164, 36, 52, 0.95) );
 	border-left: 1px solid #555;
 	border-right: 1px solid #777;
 	border-top: 1px solid #555;
@@ -95,11 +95,13 @@ tr:last-of-type td:last-child {
 
 tbody:hover td {
 	color: transparent;
-	text-shadow: 0 0 3px #aaa;
+  text-shadow: 0 0 3px #aaa;
+  
 }
 
 tbody:hover tr:hover td {
-	color: #444;
+  color: #B50717;
+  font-weight: 700;
 	text-shadow: 0 1px 0 #fff;
 }
 /* table {
