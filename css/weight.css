@@ -2,6 +2,7 @@
 
 
 
+
 body{
     font-family:'Quicksand', sans-serif;
     background-image: url('../img/slate-background-with-scale-copy-space.jpg');
@@ -17,12 +18,13 @@ form {
     position: absolute;
     top: 35%;
     left: 5%;
-    width: 500px;
-    height: 435px;
-    padding: 50px;
+    width: 380px;
+    height: 430px;
+    padding: 30px;
     border-radius: 20px;
     box-sizing: border-box;
-    background: rgba(191, 191,191, 0.507);
+    background: rgba(136,136,136,0.5);
+    text-align: center;
 }
 
 
@@ -46,7 +48,7 @@ fieldset {
 .weightBMI{
     padding: 7px;
     border: none;
-    
+    font-weight: 700;
     background: transparent;
     outline: none;
     height: 40px;
@@ -57,7 +59,7 @@ fieldset {
 .heightBMI{
     padding: 7px;
     border: none;
-   
+    font-weight: 700;
     background: transparent;
     outline: none;
     height: 40px;
@@ -76,18 +78,21 @@ fieldset {
     position:absolute;
 font-family: 'Quicksand', sans-serif;
 color: #B50717;
-font-size:20px;
-width:50%;
-left:20%;
+font-size: 18px;
+font-weight: 700;
+width:55%;
+left:22%;
 top:70%;
 text-align: center;
+border-top: 2px solid #B50717;
+border-bottom: 2px solid #B50717;;
 
 }
 #formweight input[type="text"]{
     width: 75%;
     padding: 8px 8px;
     margin: 6px 0;
-    border-radius: 16px;
+    border-radius: 5px;
     box-sizing: border-box;
 
 

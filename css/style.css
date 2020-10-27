@@ -74,7 +74,7 @@ header ul {
    }
    /* Change the link color to #111 (black) on hover */
    li a:hover {
-    background-color: #B50717;
+    background-color: rgba(164, 36, 52, 0.95);
    }
    /* header end  */
 
@@ -83,5 +83,6 @@ header ul {
 /* main start */
 main {
     margin-top: 300px;
+    margin-bottom: 200px;
 
 }
