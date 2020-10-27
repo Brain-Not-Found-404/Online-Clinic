@@ -3,7 +3,10 @@ body {
   background-color: #2d2d2d;
   
 }
-
+header h1.covid-h1{
+  margin-top: 55px;
+    margin-left: 14%;
+}
 
 table {
 	background: #f5f5f5;
@@ -161,22 +164,22 @@ tbody:hover tr:hover td {
 
   
   .slidershow {
-    width: 600px;
+    width: 40%;
     height: 350px;
     overflow: hidden;
   }
-  .middle {
+  /* .middle {
     position: absolute;
     top: 136%;
     
     left: 75%;
     transform: translate(-50%,-50%);
-  }
+  } */
   
   .navigation {
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left:73%;
     transform: translateX(-50%);
     display: flex;
   }
@@ -230,10 +233,10 @@ tbody:hover tr:hover td {
 
 
 .textStyling {
-  display: inline-block;
+  
 
   /* height: 120px; */
-  width: 50%;
+  width: 40%;
   /* margin-top: 10%; */
   text-align: center;
   font-size: 14px;
@@ -272,4 +275,18 @@ tbody:hover tr:hover td {
     border-bottom: 2px solid #B50717;
     padding:20px 0px;
     line-height: 29px;
+}
+
+
+
+
+.containter-slide{
+  position: relative;
+  width: 100%;
+  padding:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }

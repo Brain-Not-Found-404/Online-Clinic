@@ -13,14 +13,14 @@
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="drugFood.html">Our Services</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="ourServices.html">Our Services</a></li>
+        <li><a href="about.html">About US</a></li>
         <li><a href="signIn.html">Sign Up</a></li>
       </ul>
     </nav>
 
-    <h1>COVID-19 & FLU</h1>
+    <h1 class="covid-h1">COVID-19 & FLU</h1>
 
 
   </header>
@@ -73,64 +73,66 @@
         </tr>
       </tbody>
     </table>
-    <section class="textStyling">
-      <h1 class=pTitle> What to do if you have COVID-like or flu-like symptoms ?</h1>
+    <section class="containter-slide">
+      <section class="textStyling">
+        <h1 class=pTitle> What to do if you have COVID-like or flu-like symptoms ?</h1>
+  
+        <button class="steps" onclick="typeWriter()">Here are a few steps you can take:</button>
+  
+        <p id="typing"></p>
+  
+      </section>
+      <div class="slidershow middle">
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+          <input type="radio" name="r" id="r4">
+          <input type="radio" name="r" id="r5">
+  
+  
+          <div class="slide s1">
+            <img src="img/EQgP2pUW4AA0BkC-removebg-preview (2).png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/5f192e43a3108348fcdfb24e-removebg-preview.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/19-removebg-preview (1).png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/IVIfactchecks3-removebg-preview.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/eng-mythbusting-ncov-_80___1_-removebg-preview.png" alt="">
+          </div>
+  
+        </div>
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+          <label for="r4" class="bar"></label>
+          <label for="r5" class="bar"></label>
+        </div>
+      </div>
 
-      <button class="steps" onclick="typeWriter()">Here are a few steps you can take:</button>
-
-      <p id="typing"></p>
 
     </section>
-    <!-- <p class="line-1 anim-typewriter"> What to do if you have COVID-like or flu-like symptoms ? <br>
-            Here are a few steps you can take: <br>
-            Stay home – especially if you have a fever <br>
-            In general, it’s recommended that you stay home if you have a fever and for at least 24 hours after your fever goes away. If you don’t have a fever, but you have other COVID-19 or flu symptoms, speak with your doctor before heading out. <br>
-            Call one of our care lines for advice
-            Our care lines allow you to talk directly with a nurse 24/7, 365 days a year completely free of charge. They can help you decide if it’s time to see a doctor, as well as provide helpful home remedy advice. <br>
-            Get treatment and care virtually
-            Whether you’re stuck at home with a fever or you aren’t ready to leave your house just yet, there are a couple ways to get quality virtual care that fits your preferences. <br>
-            Make a video visit appointment for face-to-face care from a doctor or nurse practitioner. With video visits, your doctor will listen to your symptoms, answer questions and work with you to create a tailored treatment plan if needed. For example, your doctor may prescribe antivirals to treat the flu. <br>
-            Try to relax and take care of yourself
-            If you’re not feeling well of you’ve been officially diagnosed with an illness, try to get lots of rest and stay hydrated. Also, talk with your doctor about which over-the-counter medications they recommend to reduce your fever, aches and pains.</p>
-          -->
-    <div class="slidershow middle">
-      <div class="slides">
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <input type="radio" name="r" id="r5">
-
-
-        <div class="slide s1">
-          <img src="img/EQgP2pUW4AA0BkC-removebg-preview (2).png" alt="">
-        </div>
-        <div class="slide">
-          <img src="img/5f192e43a3108348fcdfb24e-removebg-preview.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="img/19-removebg-preview (1).png" alt="">
-        </div>
-        <div class="slide">
-          <img src="img/IVIfactchecks3-removebg-preview.png" alt="">
-        </div>
-        <div class="slide">
-          <img src="img/eng-mythbusting-ncov-_80___1_-removebg-preview.png" alt="">
-        </div>
-
-      </div>
-      <div class="navigation">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
-        <label for="r4" class="bar"></label>
-        <label for="r5" class="bar"></label>
-      </div>
-    </div>
+    
   </main>
   <footer>
-    <script src="js/covid-19.js"></script>
+    <nav>
+      <div>
+          <p class="contact">Contact us: </p>
+          <p class="email"><a href="mailto:mhd.sad22@gmail.com"> mhd.sad22@gmail.com</a> <br> <a href="mailto:Assoul_08@hotmail.com"> Assoul_08@hotmail.com</a><br><a href="mailto:mahmoudalhariri1994@gmail.com">mahmoudalhariri1994@gmail.com</a></p>
+          <p class="email"><a href="mailto:Hadeel.ea.alzayed@gmail.com"> Hadeel.ea.alzayed@gmail.com</a> <br> <a href="mailto:H.ghazzi@outlook.com">H.ghazzi@outlook.com</a></p>
+
+      </div>
+      <span>All rights reserved &copy; 2020</span>
+  </nav>
   </footer>
+  <script src="js/covid-19.js"></script>
 </body>
 
 </html>
