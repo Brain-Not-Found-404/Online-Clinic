@@ -69,6 +69,10 @@ button:active{
 #favDoctors-container{
   display: none;
 }
+#favDoctors-container h1{
+  /* text-align: center; */
+  font-size: 1.2em;
+}
 .favorite{
     color: yellow ;
     
