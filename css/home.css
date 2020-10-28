@@ -1,65 +1,4 @@
-/* img{
-    width: 50px;
-    height: 50px;
-}
 
-/* .header1{
-    padding: 30px;
-  margin-bottom: 0;
-  position: relative;
-  
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background: #c27baa; */
-  /* opacity: 0.9;
-  filter: alpha(opacity=90);
-} */ 
-
-/* #homePage{
-    /* background: url('https://image.freepik.com/free-photo/doctor-s-stethoscope-with-blue-background_23-2147652363.jpg') ; */
-    /* background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-/* .header1 h2
-.header1 h3{
-    color: black;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-bottom: 1000px;
-} */
-
-/* .placeholders {
-    margin-bottom: 30px;
-    text-align: center;
-}
-.placeholders h4 {
-    margin-bottom: 0;
-}
-.placeholder {
-    margin-bottom: 20px;
-}
-.placeholder img {
-    display: inline-block;
-    border-radius: 50%;
-}
-
-.row placeholders{
-
-    display: inline-block;
-}
-section{
-    width: 100%;
-    height: 25%;
-} */ 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 body {
@@ -71,88 +10,134 @@ body {
     padding:0;
     margin:0;
     height:100vh;
-    width:100vw;
+    width:100%;
     font-family:'Quicksand', sans-serif;
 
     color:#FFF;
 }
+
 section {
     /* width: 100%; */
-    height: 300px;
+    
     padding: 50px;
     background-color: #2d2d2d;
     border-bottom: 1px solid #bfbfbf;
     text-align: center;
   }
-  section:nth-child(1) {
-    margin-top: 100px;
-  }
+  
   #sec4 img{
-    width: 12%;
-    float: left;
+    cursor: pointer;
+    /* float: left; */
     margin: 6%;
-    margin-top: -2.5%;
+    margin-top: 0;
     border-radius: 100%;
+    width: 150px;
+    height: 150px;
+
 
 
 }
+.cont-service{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cont-service div{
+  width: 20%;
+}
 h4{
-    display:inline-block;
-    width: 20%;
-    float: left;
+    
+   
     margin: 2%;
     margin-bottom: 3%;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 500;    
 }
 h2{
     text-align: center;
     font-size: 40px;
-    margin-top: -2.5%;
+    margin-top: 0;
 
 }
 
 
 
 .head {
-    
-    float: left;;
+    position: sticky;
+    top:0;
+    left: 7%;
+   
+
     text-align: center;
     
+    
+}
+.left-sec3{
+  width: 45%;
+  
+}
+.container-why{
+  width: 100%;
+  /* padding:25px 20px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+.container-why div{
+  width: 25%;
+}
+#sec3{
+  width: 100%;
+  padding:50px 20px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0;
+  position: relative;
 }
 .visit{
-    display: inline-block;
+    
     border-top: 2px solid #B50717;
     border-bottom: 2px solid #B50717;
     border-radius: 5px;
-    float: left; 
-    margin-left: -38.5%;
-    margin-top: 3.5%;
+     
+    /* margin-left: -38.5%;
+    margin-top: 3.5%; */
     padding: 15px 15px;
     font-size: 20px;
     
     line-height: 26px;
 }
 .slidershow {
-    width: 600px;
+    width: 40%;
     height: 350px;
     overflow: hidden;
   }
   .middle {
-    position: absolute;
+    /* position: absolute;
     top: 153%;
     left: 75%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
     border-radius: 7px;
     box-shadow: 2px 2px #2d2d2d8a;
   }
   
   .navigation {
     position: absolute;
-    bottom: 20px;
-    left: 50%;
+    bottom: 15%;
+    right: 1%;
     transform: translateX(-50%);
     display: flex;
+    z-index: 5;
   }
   .bar {
     width: 50px;
@@ -202,28 +187,148 @@ h2{
   }
   
   #sec2 img {
-    width: 8%;
-    float: left;
+    width: 100%;
+    height: 200px;
+    /* float: left;
     margin: 11%;
-    margin-top: -2.5%;
+    margin-top: -2.5%; */
   
-    
-    
-    
   }
 
+
 h6 {
-    display:inline-block;
-    width: 25%;
-    float: left;
-    margin: 2.5%;
-    margin-bottom: 4%;
+  
+  
+    
+    /* margin: 2.5%;
+    margin-bottom: 4%; */
     font-size: 24px;
     font-weight: 500; 
 
 }
 .head2{
     text-align: center;
-    margin-left: -9%;
+    width: 30%;
+    margin: auto;
     font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom:3px solid #d32637 ;
 }
+.our-h2{
+  width: 30%;
+  margin:auto;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+    border-bottom:3px solid #d32637 ;
+}
+
+hr{
+  border: 2px solid gray;
+  color: gray;
+}
+
+#sec4{
+  border-bottom: none;
+}
+
+footer span{
+  color: black;
+}
+
+
+/* virus styling */
+.sec5 h1{
+  text-align: center;
+    width: 35%;
+    margin: auto;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border-bottom:3px solid #d32637 ;
+}
+
+.count-virus{
+  width: 100%;
+  padding:50px 20px;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.count-virus div{
+    width: 40%;
+
+}
+.sec5{
+  width: 100%;
+  padding:50px 20px;
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly;
+  align-items: center; */
+  margin: 50px 0;
+  position: relative;
+}
+
+
+/* CoronaVirus Animation
+Default speed is: 10s
+MoveUpDown is a keyFrames that define the position*/
+.animatediv{
+  animation: MoveUpDown 10s linear infinite;
+  position: absolute;
+  right: 180px;
+  margin-top: 0;
+  top: -100px;
+  }
+/* position of corona animation */
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: -100px;
+  }
+  50% {
+    top: 0px;
+  }
+}
+
+/*Main Menu Style*/
+	ul.menu {
+		/* position:absolute; */
+    /* left:120px; */
+    
+		background:#fff;
+		width:70%;
+    /* z-index:3; */
+    margin:0px;
+    margin-left: 25%;
+		padding:0px;
+		list-style: none;
+    overflow:hidden;
+    border-radius: 5px;	
+	}
+
+.menu li a {
+		width:100%;
+		padding-left:15px;
+		height:40px;
+		line-height:40px;
+		display:block;
+		overflow:hidden;
+		position:relative;
+		text-decoration:none;
+		font-size:20px;
+    color:#686868;
+    		
+	}
+
+	.menu li a:hover {
+    background: #2d2d2d;
+    color: #fff;
+    border-left:5px solid #B50717;
+	}

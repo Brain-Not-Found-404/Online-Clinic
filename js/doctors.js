@@ -14,22 +14,28 @@ var favDoctors=JSON.parse( localStorage.getItem('fav') ) ||   [];
 // 'name:mahmood, major: respiratory, phone:0789635473, email: mh@gmail.com, about: '];
 var doctorsArray= [
 `<p class="follow" align="center"> <i class="my-star fas fa-star"></i> </p>
-<img class="profile-img" src="https://www.driscollchildrens.org/wp/wp-content/themes/driscollchildrens/assets/images/default-doctor-image.jpg">
+<img class="profile-img" src="../img/doctor1.jpg">
 <img class="background-img" src="img/profile-packground.jpg">
 <p class="name">Mohammad<span id="major">Internal</span> </p>
-<p class="bio"><span>Phone:</span> 078824756373 <br><span>Email:</span> hh@gmail.com<br><span>About:</span> Graduated from harvared university</p>`
+<p class="bio"><span>Phone:</span> 078824756373 <br><span>Email:</span> mohammad@gmail.com<br><span>About:</span> Graduated from harvared university</p>`
 ,
 `<p class="follow" align="center"> <i class="my-star fas fa-star"></i> </p>
-<img class="profile-img" src="https://www.driscollchildrens.org/wp/wp-content/themes/driscollchildrens/assets/images/default-doctor-image.jpg">
+<img class="profile-img" src="../img/doctor2.jpg">
 <img class="background-img" src="img/profile-packground.jpg">
 <p class="name">Hanaa<span id="major">General practice</span> </p>
 <p class="bio"><span>Phone:</span> 07878542573 <br><span>Email:</span> hanaa@gmail.com<br><span>About:</span> Graduated from jordan univerity</p>`
 ,
 `<p class="follow" align="center"> <i class="my-star fas fa-star"></i> </p>
-<img class="profile-img" src="https://www.driscollchildrens.org/wp/wp-content/themes/driscollchildrens/assets/images/default-doctor-image.jpg">
+<img class="profile-img" src="../img/doctor3.jpg">
 <img class="background-img" src="img/profile-packground.jpg">
 <p class="name">Hadeel<span id="major">Respiratory</span> </p>
 <p class="bio"><span>Phone:</span> 0778547856 <br><span>Email:</span> hadeel@gmail.com<br><span>About:</span> Clinic located at jordan hospital</p>`
+,
+`<p class="follow" align="center"> <i class="my-star fas fa-star"></i> </p>
+<img class="profile-img" src="../img/doctor4.jpg">
+<img class="background-img" src="img/profile-packground.jpg">
+<p class="name">Ahmad<span id="major">Internal</span> </p>
+<p class="bio"><span>Phone:</span> 0785214562 <br><span>Email:</span> Ahmad@gmail.com<br><span>About:</span>My Clinic located at Irbid</p>`
 ];
 
 // render the data inside the doctorsArray 
@@ -55,7 +61,13 @@ function renderFavData (){
     containerFav.innerHTML='';
     if(favDoctors.length === 0 ){
         
-        containerFav.innerHTML=`<h1></h1><h1> You don't have any favorite cards! </h1>`;
+        containerFav.innerHTML=`<h1></h1><div class="container">
+        <img class="profile-img" src="https://www.driscollchildrens.org/wp/wp-content/themes/driscollchildrens/assets/images/default-doctor-image.jpg">
+        <img class="background-img" src="img/profile-packground.jpg">
+        <p class="name">UnKnown<span id="major">.......</span> </p>
+        <br>
+        <br>
+        <p class="bio"><span>You don't have any favorite doctor yet!</span></p></div>`;
     }
     else{
 
