@@ -8,21 +8,21 @@ function calculateBMI(event)
     var finalBmi = parseInt( weight/(height/100*height/100));
     var p = document.getElementById('finalBmi');
     var meaning=document.getElementById('text');
-    p.innerHTML= finalBmi;
+    p.innerHTML= "Your BMI = "+ finalBmi;
     if(event.target.id === 'reset'){
         p.innerHTML="";
         meaning.innerHTML="";
         return;
     }
     
-    if(finalBmi < 18.5){
-    meaning.innerHTML= "you are too thin."
+    if(finalBmi <= 18.5){
+    meaning.innerHTML= "That means you are too thin."
     }
     if(finalBmi > 18.5 && finalBmi < 25){
-    meaning.innerHTML = "That you are healthy."
+    meaning.innerHTML = "That means  you are healthy."
     }
-    if(finalBmi > 25){
-    meaning.innerHTML = "That you have overweight."
+    if(finalBmi >= 25){
+    meaning.innerHTML = "That means you have overweight."
     }
     }
     else{
