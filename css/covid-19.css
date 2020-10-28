@@ -186,13 +186,14 @@ tbody:hover tr:hover td {
   .bar {
     width: 50px;
     height: 10px;
-    border: 2px solid #fff;
+    border: 2px solid #bfbfbf;
+    border-radius: 3px;
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
   }
   .bar:hover {
-    background: #fff;
+    background: #B50717;
   }
   input[name="r"] {
     position: absolute;
