@@ -78,18 +78,28 @@ button:active{
     
 } 
 button{
-  background-color: rgba(34, 32, 32, 0.904);
-  color: whitesmoke;
-  font-size: 1.1em;
+  /* background-color: rgba(34, 32, 32, 0.904); */
+  /* color: whitesmoke; */
+  /* font-size: 1.1em; */
   margin: 10px;
-  padding:5px 9px;
-  border-radius: 5px;
+  /* padding:5px 9px; */
+  /* border-radius: 5px; */
   
-  cursor: pointer;
-  text-shadow: 2px 2px 5px rgb(68, 65, 65);
-  outline: none;
-
-
+  /* cursor: pointer; */
+  /* text-shadow: 2px 2px 5px rgb(68, 65, 65); */
+  /* outline: none; */
+  
+   border: none;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    /* margin-top: 4px; */
+    background: #c52333;
+    cursor: pointer;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 8px 15px;
 }
 #button-inner{
   position: fixed;
@@ -104,6 +114,8 @@ button{
 button:hover{
   color:black;
   background-color: #bfbfbf;
+  /* background: #333333;
+  color: #bfbfbf; */
 }
 button:active{
   transform: translateY(2px);

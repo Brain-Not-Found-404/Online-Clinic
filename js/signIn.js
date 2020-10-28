@@ -113,7 +113,7 @@ submitSignIn.addEventListener('click',function(event) {
     for(var i =0 ; i<usersArray.length; i++){
       if(  usersArray[i].email === email && usersArray[i].password === password  ){
           console.log("success");
-          window.open('../index.html','_self');
+          window.open('../home.html','_self');
           
       }
     }
