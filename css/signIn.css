@@ -12,7 +12,7 @@ body{
     margin: -20px 0 50px;
 }
 main{
-    margin-top: 600px;
+    margin-top: 700px;
     margin-bottom: 200px;
 }
 h1{
@@ -105,7 +105,7 @@ button.ghost{
     
 }
 .su{
-    background-color: gray;
+    background-color: #b62834f5;
 }
 .form-container{
     position: absolute;
