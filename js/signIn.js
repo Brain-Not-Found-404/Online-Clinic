@@ -114,10 +114,15 @@ submitSignIn.addEventListener('click',function(event) {
       if(  usersArray[i].email === email && usersArray[i].password === password  ){
           console.log("success");
           window.open('../home.html','_self');
+          signin.signinEmail.value='';
+          signin.signinPass.value='';
+          return;
           
       }
+      
+      
     }
-    console.log("end users");
+    alert("your email or password is wrong.. ");
     signin.signinEmail.value='';
     signin.signinPass.value='';
     
